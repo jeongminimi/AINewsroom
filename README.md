@@ -157,3 +157,77 @@ npm run test:ui                            # 화면 테스트 (Edge + 가짜 백
 | 박소현 | UI/UX / Transcript | 전체 화면 UI/UX, STT·녹취 |
 | 고서연 | Authoring / Media | 기사 작성·저장·송고, 제목·부제, 사진 |
 | 이정민 | Distribution | 플랫폼 원고·카드뉴스, 검수, Renderer |
+
+## 이정민 · Platform Generator 포트폴리오
+
+기사 원문을 Instagram·Threads·카드뉴스에 맞게 변환하고, 원문 근거 검수·카드 렌더링·SNS 작성창 연결까지 구현한 과정을 정리했습니다.
+
+[인터랙티브 HTML 포트폴리오 보기](portfolio/lee-jeongmin-platform-generator.html)
+
+### 01. 프로젝트 소개
+
+![AI Newsroom OS 프로젝트 소개](docs/images/portfolio-platform-generator/01-project-overview.png)
+
+### 02. 담당 역할
+
+![이정민 Platform Generator 담당 역할](docs/images/portfolio-platform-generator/02-my-role.png)
+
+### 03. 팀 역할과 협업
+
+![팀원별 담당 기능과 공동 작업](docs/images/portfolio-platform-generator/03-team-collaboration.png)
+
+### 04. 개발 전 현업 조사
+
+![현업 9명 대상 설문과 인터뷰 결과](docs/images/portfolio-platform-generator/04-field-research.png)
+
+### 05. 사용자 문제
+
+![채널별 콘텐츠 재작성 문제](docs/images/portfolio-platform-generator/05-user-problem.png)
+
+### 06. 플랫폼 변환 작업 흐름
+
+![기사 선택부터 SNS 게시까지의 작업 흐름](docs/images/portfolio-platform-generator/06-workflow.png)
+
+### 07. 플랫폼별 프롬프트
+
+![Instagram Threads 카드뉴스별 프롬프트 설계](docs/images/portfolio-platform-generator/07-platform-prompts.png)
+
+### 08. 핵심 코드 · 구조화 출력
+
+![JSON Schema 기반 생성 결과 구조화](docs/images/portfolio-platform-generator/08-code-structured-output.png)
+
+### 09. 원문 근거 검수
+
+![source evidence 기반 원문 근거 검수](docs/images/portfolio-platform-generator/09-evidence-review.png)
+
+### 10. 핵심 코드 · 인용 검사
+
+![기사 원문 인용 존재 검사 코드](docs/images/portfolio-platform-generator/10-code-quote-check.png)
+
+### 11. 카드뉴스 렌더링
+
+![편집 가능한 카드뉴스 이미지 렌더링](docs/images/portfolio-platform-generator/11-card-news-renderer.png)
+
+### 12. 핵심 코드 · 렌더링과 SNS 검증
+
+![카드 배치와 SNS 작성 상태 검증 코드](docs/images/portfolio-platform-generator/12-code-render-and-sns.png)
+
+### 13. SNS 작성창 자동화
+
+![Instagram과 Threads 공식 작성창 연결](docs/images/portfolio-platform-generator/13-sns-automation.png)
+
+### 14. 사용자 테스트 개요
+
+![현업 기자 5명 사용자 테스트 결과](docs/images/portfolio-platform-generator/14-user-test-overview.png)
+
+### 15. 참여자별 평가
+
+![SNS 변환 만족도와 참여자별 평가](docs/images/portfolio-platform-generator/15-participant-scores.png)
+
+### 16. 테스트 피드백
+
+![사용자 테스트에서 확인한 후속 개선 항목](docs/images/portfolio-platform-generator/16-test-feedback.png)
+
+### 17. 성과와 회고
+
+![Platform Generator 구현 성과와 회고](docs/images/portfolio-platform-generator/17-outcome-and-learning.png)
